@@ -1,0 +1,46 @@
+body {
+    font:large serif;
+    width:40em;
+    margin:0 auto;
+    line-height:1.5;
+}
+
+p {
+    margin:0;
+    margin-bottom:1.5em;
+}
+
+h1 {
+    font-size:180%
+}
+
+h2 {
+    font-size:144%;
+    margin-bottom:.5em;
+}
+
+h3 {
+    font-size:100%;
+    margin:0;
+}
+
+a:link, a:hover, a:visited, a:active {
+    color:#0932ab;
+}
+
+a:visited {
+    color:#666;
+}
+
+a:hover {
+    color:#0932ab;
+    text-decoration:none;
+}
+
+ol {
+    padding-left:0;
+}
+
+ol li {
+    margin-bottom: 1.5em;
+}
