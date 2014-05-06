@@ -1,46 +1,31 @@
 body {
-    font:large serif;
-    width:40em;
-    margin:0 auto;
-    line-height:1.5;
+    color: #223;
+    font: x-large/1.5 "Source Sans Pro", sans-serif;
+    width: 36em;
+    margin: 3em auto 0 auto;
 }
 
 p {
-    margin:0;
-    margin-bottom:1.5em;
+    margin: 0 0 1.5em 0;
 }
 
-h1 {
-    font-size:180%
+h1, h2 {
+    font-size: 100%;
+    margin: 0;
 }
 
-h2 {
-    font-size:144%;
-    margin-bottom:.5em;
-}
-
-h3 {
-    font-size:100%;
-    margin:0;
-}
-
-a:link, a:hover, a:visited, a:active {
-    color:#0932ab;
-}
-
-a:visited {
-    color:#666;
+a:link, a:visited,a:hover, a:active {
+    color: #0030a0;
 }
 
 a:hover {
-    color:#0932ab;
     text-decoration:none;
 }
 
 ol {
-    padding-left:0;
+    padding-left: 0;
 }
 
-ol li {
+h1, ol li {
     margin-bottom: 1.5em;
 }
