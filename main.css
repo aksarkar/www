@@ -9,7 +9,11 @@ p {
     margin: 0 0 1.5em 0;
 }
 
-h1, h2 {
+h1 {
+    margin: 0
+}
+
+h2 {
     font-size: 100%;
     margin: 0;
 }
@@ -22,10 +26,18 @@ a:hover {
     text-decoration:none;
 }
 
-ol {
+#menu {
     padding-left: 0;
+    margin-bottom: 3em
 }
 
-h1, ol li {
-    margin-bottom: 1.5em;
+#menu li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.totop {
+    display:block;
+    width:100%;
+    text-align: right
 }
